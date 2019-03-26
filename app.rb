@@ -1,15 +1,17 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/reversename/:name'
+  get '/reversename/:name' do
 
   end
 
-  get '/square/:number'
+  get '/square/:number' do
 
   end
 
-  get '/say/:number/:phrase'
+  get '/say/:number/:phrase' do
 
-  end 
+  end
+
+  get '/say/:word1/:word2/:word3/:word4/:word5'do
 end
