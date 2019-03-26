@@ -5,3 +5,4 @@ class App < Sinatra::Base
     @name = params[:name]
   end
 end
+end
